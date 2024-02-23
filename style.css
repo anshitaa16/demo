@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: auto;
+    width: 100%;
+    
+    .p1{
+        position: relative;
+        height: 250vh;
+        width: 100%;
+        /* background-color: blueviolet; */
+        .img img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            opacity: 60%;
+        }
+        .cnt{
+            height: 240vh;
+            width: 100%;
+            /* background-color: rgba(118, 117, 117, 0.526); */
+            position: absolute;
+            top: 0;
+            left: 0;
+            nav{
+                height: 10%;
+                width: 100%;
+                /* background-color: brown; */
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                img{
+                    margin-left: 50px;
+                    padding-top: 10px;
+                }
+                #centr{
+                    display: flex;
+                    gap: 50px;
+                    h1{
+                        text-transform: uppercase;
+                        color: black;
+                        font-family: monospace;
+                        font-weight: 600;
+                        padding: 5px;
+                        
+                    }
+                    h1:hover{
+                        box-shadow: 0 0 5px rgb(34, 34, 34);
+                    }
+                    
+                }
+                #social h1{
+                    text-transform: uppercase;
+                    color: black;
+                    font-family: monospace;
+                    font-weight: 100;
+                    margin-right: 50px;
+                    /* background-color: chocolate; */
+                    padding: 5px 20px;
+                    border-radius: 100px;
+                    border: 1px solid purple;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+    .fshn{
+        height: 350px;
+        width: 100%;
+        /* background-color: beige; */
+        /* margin-top: 50px; */
+       
+        overflow: hidden;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        h1{
+            font-size: 320px;
+            text-transform: uppercase;
+            font-family: fantasy;
+            opacity: 80%;
+        }
+    }
+    .cntt{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 30px;
+            margin-left: 25px;
+            margin-top: 15px;
+        }
+    }
+    .imgg{
+        background-color: aqua;
+        height: 500px;
+        width: 350px;
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        background-image: url(https://images.unsplash.com/photo-1616982582505-7ece76a7b1cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhc2hpb24lMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 80%;
+        z-index: 999;
+    }
+    .a{
+        background-image: url(https://images.unsplash.com/photo-1616982582505-7ece76a7b1cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhc2hpb24lMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: rotate(4deg);
+    }
+    .b{
+        background-image: url(https://images.unsplash.com/photo-1616982582505-7ece76a7b1cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhc2hpb24lMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: rotate(8deg);
+    }
+    .iii{
+        background-color: aqua;
+        height: 500px;
+        width: 400px;
+        border-radius: 10%;
+        position: absolute;
+        top: 68%;
+        left: 10%;
+        background-image: url(https://images.unsplash.com/photo-1565201053376-de8b6fd6aa66?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0 0 15px black;
+    }
+    .dibba{
+        background-color: black;
+        height: 12%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 1%;
+        right: 10%;
+        #con{
+            background-color: rgb(13, 13, 13);
+            height: 100%;
+            width: 70%;
+            
+            h1{
+                color: white;
+                font-size: 27px;
+                padding-top: 13px;
+                padding-left: 15px;
+                line-height: 40px;
+            }
+        }
+        #img{
+            height: 100%;
+            width: 30%;
+            background-color: rgb(5, 5, 5);
+            background-image: url(https://e0.pxfuel.com/wallpapers/217/450/desktop-wallpaper-sam-lo-on-aesthetic-outfits-grunge-aesthetic-outfits-fashion.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    .p2{
+        height: 150vh;
+        width: 100%;
+        /* background-color: aquamarine; */
+        margin-top: 10%;
+        
+       
+    }
+    
+}
+.p2 .container{
+    width: 100%;
+    height: 45%;
+    perspective: 900px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.p2 .container .card1{
+    height: 100%;
+    width: 30%;
+    /* background-color: blueviolet; */
+    position: relative;
+    transition: transform 250ms;
+    transform-style: preserve-3d;
+    background-color: rgb(44, 71, 44);
+    h1{
+        color: white;
+        font-family: fantasy;
+        text-align: center;
+        padding-top: 15px;
+        letter-spacing: 3px;
+    }
+    p{
+        color: white;
+        font-size: 25px;
+        font-family: cursive;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    #oval{
+        height: 65%;
+        width: 50%;
+        border-radius: 50%;
+        background-color: azure;
+        margin-top: 30px;
+        margin-left: 110px;
+        background-image: url(https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400839.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.card1:hover{
+    transform: rotateY(180deg);
+}
+.card1 .front, .card1 .back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    /* background: linear-gradient(-135deg, black,white); */
+    
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+.p2 .container .card2{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    transition: transform 250ms;
+    transform-style: preserve-3d;
+    background-color: black;
+    h1{
+        color: white;
+        font-family: fantasy;
+        text-align: center;
+        padding-top: 15px;
+        letter-spacing: 3px;
+    }
+    p{
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    padding-left: 25px;
+    padding-top: 5px;
+    }
+    #oval{
+    height: 65%;
+    width: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: azure;
+    margin-top: 30px;
+    margin-left: 110px;
+    background-image: url(https://i.pinimg.com/736x/a1/f5/8f/a1f58fc8bec10dbb02bca5f6261ebd0c.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+}
+.card2:hover{
+    transform: rotateY(180deg);
+}
+.card2 .front, .card2 .back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    
+}
+.p2 .container .card3{
+    height: 100%;
+    width: 30%;
+    /* background-color: blueviolet; */
+    position: relative;
+    transition: transform 250ms;
+    transform-style: preserve-3d;
+    
+    background-color: black;
+    
+}
+.p2 .container .card3 .front .img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHBFORsYuXYY8POF5Oyi0-K0Jibo3DALqbZFZ4lYWifo3B1tujMjiIkDOWIX_P7DghGfY&usqp=CAU);
+    background-position: center;
+        background-size: cover;
+    
+}
+.p2 .container .card3 .front #cover{
+    height: 100%;
+    width: 100%;
+    background-color: #e3905d2c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    h1{
+        font-size: 55px;
+        text-align: center;
+        font-family: fantasy;
+        padding-top: 80px;
+        opacity: 70%;
+        color: white;
+    }
+}
+.card3:hover{
+    transform: rotateY(180deg);
+}
+.card3 .front, .card3 .back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    /* background: linear-gradient(-135deg, black,white); */
+}
+.p2 .container .card3 .back .img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(https://i.pinimg.com/564x/cc/f6/cb/ccf6cb017ce6b738a940e8a5d211fe23.jpg);
+    background-position: center;
+        background-size: cover;
+    
+}
+.p2 .container .card3 .back #cover{
+    height: 100%;
+    width: 100%;
+    background-color: #e3905d2c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    h1{
+        font-size: 55px;
+        text-align: center;
+        font-family: fantasy;
+        padding-top: 80px;
+        opacity: 70%;
+        color: white;
+    }
+}
+.p2 .inner{
+    height: 45%;
+    width: 100%;
+    background-color: black;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.p2 .inner #left{
+    height: 100%;
+    width: 31%;
+    background-color: antiquewhite;
+}
+.p2 .inner #right{
+    height: 100%;
+    width: 61%;
+    background-color: antiquewhite;
+}
